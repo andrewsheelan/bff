@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  bff
 //
 //  Created by Andrew Sheelan Paliyan on 1/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *loginButton;
-- (IBAction)login:(id)sender;
+@interface SecondViewController : UIViewController
 
 @end
